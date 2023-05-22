@@ -1,0 +1,2 @@
+# TimeMarker
+ Introducing "TimeMarker," a lightweight Chrome extension that enables effortless bookmarking of time stamps in YouTube videos. With just a single click, users can mark important moments during video playback, making it easy to revisit specific sections later. TimeMarker offers a seamless and intuitive user interface, allowing users to manage and access their bookmarks with ease. Enhance your YouTube experience and never miss a crucial moment again with TimeMarker. Install now for a more efficient and organized video watching experience.
