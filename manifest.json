@@ -1,0 +1,45 @@
+{
+    "name": "TimeMarker",
+    "version": "0.1.0",
+    "description": "Save TIme Stamps in YouTube Videos",
+    "permissions": ["storage", "tabs"],
+    "host_permissions":["https://*.youtube.com/*"],
+    "background":{
+        "service_worker": "background.js"
+    },
+
+    "content_scripts":[
+        {
+            "matches":["https://*.youtube.com/*"],
+            "js": ["content_scripts.js"]
+        }
+    ],
+
+    "web_accessible_resources":[
+        {
+            "resources": [
+                "",
+                "",
+                "",
+                ""
+            ],
+            "matches": ["https://*.youtube.com/*"]
+        }
+
+    ],
+
+    "action":{
+        "default_icon":{
+            "16": "",
+            "24": "",
+            "32": ""
+        },
+
+        "default_title": "TimeMarker",
+        "default_popup": "popup.html"
+    },
+    "manifest_version": 3
+
+    
+
+}
